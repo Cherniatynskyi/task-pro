@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktask_pro=self.webpackChunktask_pro||[]).push([[581],{581:(s,e,a)=>{a.d(e,{A:()=>b});a(43);const b=a.p+"static/media/sprite.1698fbc58b51eb77ba1b56781b27a5e4.svg"}}]);
-//# sourceMappingURL=581.bab6d478.chunk.js.map
