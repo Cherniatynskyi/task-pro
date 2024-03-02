@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktask_pro=self.webpackChunktask_pro||[]).push([[381],{381:(s,e,t)=>{t.r(e),t.d(e,{default:()=>k});const a={};var c=t(579);const k=()=>(0,c.jsx)("div",{className:a.test,children:"BOARD"})}}]);
-//# sourceMappingURL=381.8d7e22b2.chunk.js.map
