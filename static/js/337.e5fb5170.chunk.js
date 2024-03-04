@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunktask_pro=self.webpackChunktask_pro||[]).push([[337],{1337:(e,o,t)=>{t.d(o,{_p:()=>d});var u=t(5043);function d(){u.useLayoutEffect((()=>{const e=window.getComputedStyle(document.body).overflow;return document.body.style.overflow="hidden",()=>{document.body.style.overflow=e}}),[])}}}]);
-//# sourceMappingURL=337.e5fb5170.chunk.js.map
