@@ -32,8 +32,8 @@ export const Login = () => {
   };
 
   const handleSubmit = e => {
-    const {email, password}=e
-    dispatch(loginThunk({email, password}));
+    const { email, password } = e;
+    dispatch(loginThunk({ email, password }));
     // form.reset();
   };
 
@@ -45,7 +45,7 @@ export const Login = () => {
           password: '',
         }}
         validationSchema={schema}
-        onSubmit={(e)=>handleSubmit(e)}
+        onSubmit={e => handleSubmit(e)}
       >
         {({ errors, touched }) => (
           <Form autoComplete="off">

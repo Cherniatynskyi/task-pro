@@ -30,15 +30,14 @@ export const UserForm = () => {
   //     const [email, setEmail] = useState('');
   //     const [comment, setPassword] = useState('');
 
-
   //   const handleCommentChange = e => {
   //     setCEmail(e.target.value);
   //   };
 
-    const handleSubmit = e => {
-      e.preventDefault();
-      console.log();
-    };
+  const handleSubmit = e => {
+    e.preventDefault();
+    console.log();
+  };
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const handleClickPasswordVisibility = () => {
@@ -61,23 +60,16 @@ export const UserForm = () => {
           onSubmit={handleSubmit}
         >
           <Form>
-            <div className={css.avatar} >
+            <div className={css.avatar}>
               <label className={css.userAvaWrapper}>
-                  <img
-                    src={``}
-                    alt=""
-                    className={css.userImg}
-                    width={68}
-                  />
-                <label htmlFor="avatar"
-                  className={css.iconBtnPlus}
-                >
+                <img src={``} alt="" className={css.userImg} width={68} />
+                <label htmlFor="avatar" className={css.iconBtnPlus}>
                   <ImageInput />
                   <svg className={css.iconPlus} width="10" height="10">
                     <use xlinkHref={`${sprite}#icon-plus`} />
                   </svg>
                 </label>
-              </label> 
+              </label>
             </div>
             <div className={css.fieldWrapper}>
               <Field

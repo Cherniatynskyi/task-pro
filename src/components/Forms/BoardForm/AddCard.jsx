@@ -23,7 +23,7 @@ const formCardSchema = Yup.object().shape({
   deadline: Yup.date(),
 });
 
-export const AddCardForm = () =>{
+export const AddCardForm = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   // const dispatch = useDispatch();
 
@@ -43,7 +43,6 @@ export const AddCardForm = () =>{
           deadline: selectedDate,
         }}
         validationSchema={formCardSchema}
-        
       >
         {({ handleSubmit, setFieldValue }) => (
           <form className={css.from} onSubmit={handleSubmit}>
@@ -64,46 +63,37 @@ export const AddCardForm = () =>{
               <p className={css.errMsg} name="text" />
             </label>
             <fieldset className={css.iconsForm}>
-            <legend className={css.iconsTitle}>Label color</legend>
-            <div className={css.iconsWrap}>
-                  <label className={css.container}>
-                    <input 
-                      type="radio"
-                      id="1"
-                      name="icon"
-                      value="no-priority"
-                    />
-                    <span className={`${css.checkmark} ${css.noPriority}`}></span>
-                  </label>
-                  <label className={css.container}>
-                    <input 
-                      type="radio"
-                      id="2"
-                      name="icon"
-                      value="low-priority"
-                    />
-                    <span className={`${css.checkmark} ${css.lowPriority}`}></span>
-                  </label>
-                  <label className={css.container}>
-                    <input 
-                      type="radio"
-                      id="3"
-                      name="icon"
-                      value="med-priority"
-                    />
-                    <span className={`${css.checkmark} ${css.medPriority}`}></span>
-                  </label>
-                  <label className={css.container}>
-                    <input 
-                      type="radio"
-                      id="4"
-                      name="icon"
-                      value="high-priority"
-                    />
-                    <span className={`${css.checkmark} ${css.highPriority}`}></span>
-                  </label>
-            </div>
-          </fieldset>
+              <legend className={css.iconsTitle}>Label color</legend>
+              <div className={css.iconsWrap}>
+                <label className={css.container}>
+                  <input type="radio" id="1" name="icon" value="no-priority" />
+                  <span className={`${css.checkmark} ${css.noPriority}`}></span>
+                </label>
+                <label className={css.container}>
+                  <input type="radio" id="2" name="icon" value="low-priority" />
+                  <span
+                    className={`${css.checkmark} ${css.lowPriority}`}
+                  ></span>
+                </label>
+                <label className={css.container}>
+                  <input type="radio" id="3" name="icon" value="med-priority" />
+                  <span
+                    className={`${css.checkmark} ${css.medPriority}`}
+                  ></span>
+                </label>
+                <label className={css.container}>
+                  <input
+                    type="radio"
+                    id="4"
+                    name="icon"
+                    value="high-priority"
+                  />
+                  <span
+                    className={`${css.checkmark} ${css.highPriority}`}
+                  ></span>
+                </label>
+              </div>
+            </fieldset>
             <p className={css.deadlineStyle}>Deadline</p>
             <div>
               <span className={css.span}> Today,</span>
@@ -126,4 +116,4 @@ export const AddCardForm = () =>{
       </Formik>
     </div>
   );
-}
+};

@@ -1,7 +1,16 @@
 import css from './Column.module.css';
 import sprite from '../../images/sprite.svg';
+import { useDispatch } from 'react-redux';
+import { openModal } from '../../redux/modalSlice';
 
 export const Column = ({ children, column }) => {
+  const dispatch = useDispatch();
+
+  const handleAddCard = () => {
+    // dispatch(openModal({ content: 'add-card' }));
+    dispatch(openModal({ content: 'add-board' }));
+  };
+
   return (
     <li className={css.columnWrap}>
       <div>
@@ -22,7 +31,7 @@ export const Column = ({ children, column }) => {
         </div>
         <ul className={css.columnList}>{children}</ul>
 
-        <button className={css.columnAddButton}>
+        <button onClick={handleAddCard} className={css.columnAddButton}>
           <svg className={css.addColumnIcon}>
             <use href={`${sprite}#icon-plus`}></use>
           </svg>

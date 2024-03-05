@@ -36,10 +36,10 @@ export const Register = () => {
   };
 
   const handleSubmit = e => {
-    const {name, email, password} = e
-    
-    dispatch(registerThunk({name,email,password}));
-    
+    const { name, email, password } = e;
+
+    dispatch(registerThunk({ name, email, password }));
+
     // e.reset();
   };
 
@@ -52,7 +52,7 @@ export const Register = () => {
           password: '',
         }}
         validationSchema={schema}
-        onSubmit={(e)=>handleSubmit(e)}
+        onSubmit={e => handleSubmit(e)}
       >
         {({ errors, touched }) => (
           <Form>
