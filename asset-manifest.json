@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/task-pro/static/css/main.4cc803e5.css",
-    "main.js": "/task-pro/static/js/main.02b5c95c.js",
+    "main.js": "/task-pro/static/js/main.a554d2ab.js",
     "static/css/952.30fea189.chunk.css": "/task-pro/static/css/952.30fea189.chunk.css",
     "static/js/952.533ec4e3.chunk.js": "/task-pro/static/js/952.533ec4e3.chunk.js",
-    "static/css/260.a509a183.chunk.css": "/task-pro/static/css/260.a509a183.chunk.css",
-    "static/js/260.f786f8f5.chunk.js": "/task-pro/static/js/260.f786f8f5.chunk.js",
+    "static/css/260.ced58d33.chunk.css": "/task-pro/static/css/260.ced58d33.chunk.css",
+    "static/js/260.aeb94a37.chunk.js": "/task-pro/static/js/260.aeb94a37.chunk.js",
     "static/css/423.e2303b2b.chunk.css": "/task-pro/static/css/423.e2303b2b.chunk.css",
     "static/js/423.4aa765e2.chunk.js": "/task-pro/static/js/423.4aa765e2.chunk.js",
     "static/css/365.2d561d9f.chunk.css": "/task-pro/static/css/365.2d561d9f.chunk.css",
@@ -35,11 +35,11 @@
     "static/media/4.png": "/task-pro/static/media/4.b4fe441bdcd3ca3ee357.png",
     "index.html": "/task-pro/index.html",
     "main.4cc803e5.css.map": "/task-pro/static/css/main.4cc803e5.css.map",
-    "main.02b5c95c.js.map": "/task-pro/static/js/main.02b5c95c.js.map",
+    "main.a554d2ab.js.map": "/task-pro/static/js/main.a554d2ab.js.map",
     "952.30fea189.chunk.css.map": "/task-pro/static/css/952.30fea189.chunk.css.map",
     "952.533ec4e3.chunk.js.map": "/task-pro/static/js/952.533ec4e3.chunk.js.map",
-    "260.a509a183.chunk.css.map": "/task-pro/static/css/260.a509a183.chunk.css.map",
-    "260.f786f8f5.chunk.js.map": "/task-pro/static/js/260.f786f8f5.chunk.js.map",
+    "260.ced58d33.chunk.css.map": "/task-pro/static/css/260.ced58d33.chunk.css.map",
+    "260.aeb94a37.chunk.js.map": "/task-pro/static/js/260.aeb94a37.chunk.js.map",
     "423.e2303b2b.chunk.css.map": "/task-pro/static/css/423.e2303b2b.chunk.css.map",
     "423.4aa765e2.chunk.js.map": "/task-pro/static/js/423.4aa765e2.chunk.js.map",
     "365.2d561d9f.chunk.css.map": "/task-pro/static/css/365.2d561d9f.chunk.css.map",
@@ -51,6 +51,6 @@
   },
   "entrypoints": [
     "static/css/main.4cc803e5.css",
-    "static/js/main.02b5c95c.js"
+    "static/js/main.a554d2ab.js"
   ]
 }
