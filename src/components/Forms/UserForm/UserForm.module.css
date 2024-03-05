@@ -32,7 +32,7 @@
   }
 }
 
-.avatar{
+.avatar {
   display: flex;
   justify-content: center;
 }
@@ -49,14 +49,13 @@
   cursor: pointer;
 }
 
-.userAvaWrapper:hover .userImg{
+.userAvaWrapper:hover .userImg {
   border: 2px solid var(--inputsBorderColor);
 }
 
-.userAvaWrapper:hover .iconBtnPlus{
+.userAvaWrapper:hover .iconBtnPlus {
   background-color: var(--accentColorHover);
 }
-
 
 .userImg {
   position: absolute;
@@ -151,8 +150,6 @@
     width: 352px;
   }
 }
-
-
 
 .btnSend {
   border: none;

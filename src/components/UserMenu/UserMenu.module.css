@@ -3,8 +3,6 @@
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-left: 14px;
-  justify-content: center;
 }
 
 .buttonOpen {
@@ -15,7 +13,6 @@
   color: var(--mainTextColor);
 
   padding: 10px;
-  
 
   display: flex;
   gap: 8px;
@@ -27,12 +24,11 @@
   cursor: pointer;
 }
 
-.buttonOpen:hover{
+.buttonOpen:hover {
   background-color: var(--lightBgColor);
 }
 
-
-.userAvatarWrap{
+.userAvatarWrap {
   width: 32px;
   height: 32px;
 
@@ -45,8 +41,6 @@
 }
 
 .userIcon {
-  width: 25px;
-  height: 25px;
   stroke: var(--darkBgColor);
   fill: var(--darkBgColor);
 }
