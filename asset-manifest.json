@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/task-pro/static/css/main.051e669f.css",
-    "main.js": "/task-pro/static/js/main.e45944f0.js",
+    "main.js": "/task-pro/static/js/main.6c346cff.js",
     "static/css/952.30fea189.chunk.css": "/task-pro/static/css/952.30fea189.chunk.css",
     "static/js/952.533ec4e3.chunk.js": "/task-pro/static/js/952.533ec4e3.chunk.js",
     "static/css/312.41f7559a.chunk.css": "/task-pro/static/css/312.41f7559a.chunk.css",
-    "static/js/312.6093856d.chunk.js": "/task-pro/static/js/312.6093856d.chunk.js",
+    "static/js/312.9fc15492.chunk.js": "/task-pro/static/js/312.9fc15492.chunk.js",
     "static/css/525.f26d839e.chunk.css": "/task-pro/static/css/525.f26d839e.chunk.css",
     "static/js/525.9f239336.chunk.js": "/task-pro/static/js/525.9f239336.chunk.js",
     "static/css/260.ced58d33.chunk.css": "/task-pro/static/css/260.ced58d33.chunk.css",
@@ -30,6 +30,7 @@
     "static/media/9.jpg": "/task-pro/static/media/9.a3f977c653dfd938b6b9.jpg",
     "static/media/14.jpg": "/task-pro/static/media/14.2af4e567da7403a1883d.jpg",
     "static/media/3.jpg": "/task-pro/static/media/3.8db5ac019a12577ca70a.jpg",
+    "static/media/1.jpg": "/task-pro/static/media/1.3d2ac168453cb9ef70bc.jpg",
     "static/media/2.jpg": "/task-pro/static/media/2.3d2ac168453cb9ef70bc.jpg",
     "static/media/sand-cave@2x.jpg": "/task-pro/static/media/sand-cave@2x.c91fa25e0a83309c78c0.jpg",
     "static/media/13.jpg": "/task-pro/static/media/13.0dc1b9926644d49eb85d.jpg",
@@ -65,11 +66,11 @@
     "static/media/4.png": "/task-pro/static/media/4.b4fe441bdcd3ca3ee357.png",
     "index.html": "/task-pro/index.html",
     "main.051e669f.css.map": "/task-pro/static/css/main.051e669f.css.map",
-    "main.e45944f0.js.map": "/task-pro/static/js/main.e45944f0.js.map",
+    "main.6c346cff.js.map": "/task-pro/static/js/main.6c346cff.js.map",
     "952.30fea189.chunk.css.map": "/task-pro/static/css/952.30fea189.chunk.css.map",
     "952.533ec4e3.chunk.js.map": "/task-pro/static/js/952.533ec4e3.chunk.js.map",
     "312.41f7559a.chunk.css.map": "/task-pro/static/css/312.41f7559a.chunk.css.map",
-    "312.6093856d.chunk.js.map": "/task-pro/static/js/312.6093856d.chunk.js.map",
+    "312.9fc15492.chunk.js.map": "/task-pro/static/js/312.9fc15492.chunk.js.map",
     "525.f26d839e.chunk.css.map": "/task-pro/static/css/525.f26d839e.chunk.css.map",
     "525.9f239336.chunk.js.map": "/task-pro/static/js/525.9f239336.chunk.js.map",
     "260.ced58d33.chunk.css.map": "/task-pro/static/css/260.ced58d33.chunk.css.map",
@@ -81,6 +82,6 @@
   },
   "entrypoints": [
     "static/css/main.051e669f.css",
-    "static/js/main.e45944f0.js"
+    "static/js/main.6c346cff.js"
   ]
 }
