@@ -204,14 +204,24 @@
   /* margin-top: 15px; */
 }
 
+/* .passwordWrapper .passwordWrapper:hover,
+.passwordWrapper:hover .iconBtn,
+.passwordWrapper:hover #field_password {
+  opacity: 1;
+  background-color: rgba(31, 31, 31, 1);
+  border-color: rgba(190, 219, 176, 1);
+} */
+
 .iconEye {
   margin-right: 15px;
   stroke-width: 1.3px;
   stroke: #fff;
 }
+/* {`${css.iconEye} ${css.activ}`} */
 
 .active {
-  fill: #9dc888;
+  stroke: #3206f5;
+  fill: #fb0505;
 }
 
 .errorMessage {
@@ -220,6 +230,7 @@
   align-items: center;
   justify-content: left;
   height: 10px;
+  margin: 2px;
   font-size: 12px;
   color: #9dc888;
   padding-left: 12px;
