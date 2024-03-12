@@ -63,7 +63,7 @@ export const NewBoardForm = () => {
             placeholder="Title"
             onChange={e => handleChange(e)}
             value={title}
-            className={css.formInput}
+            className={`${css.formInput} ${title ? css.error : ''}`}
             type="text"
             name="title"
             required

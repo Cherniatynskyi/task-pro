@@ -7,6 +7,8 @@
   color: var(--mainTextColor);
 }
 
+
+
 .formInputTitle {
   font-family: 'Poppins';
   outline: none;
@@ -29,15 +31,17 @@
 .formInputTitle:hover,
 .formInputTitle:active,
 .formInputTitle:focus {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .formInput {
+  
   font-family: 'Poppins';
   outline: none;
   resize: none;
   width: 100%;
   height: 154px;
+  height: 100%;
   background-color: var(--inputsBgColor);
   border: 1px solid var(--inputsBorderColor);
   border-radius: 8px;
@@ -56,11 +60,17 @@
 .formInput:hover,
 .formInput:active,
 .formInput:focus {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .formInput::placeholder {
   color: var(--inputsPlaceholderColor);
+}
+
+.error {  
+  background-color: var(--inputsBgColor);
+  border: 1px solid var(--inputsBorderColor);  
+  opacity: 1; 
 }
 
 .iconsForm {
@@ -149,9 +159,8 @@
 
 .checkmark {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   height: 14px;
   width: 14px;
   border-radius: 50%;
@@ -358,3 +367,5 @@
 .buttonIcon {
   stroke: var(--mainTextColor);
 }
+
+

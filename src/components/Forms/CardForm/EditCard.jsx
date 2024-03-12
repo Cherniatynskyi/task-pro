@@ -50,7 +50,7 @@ export const EditCardForm = () => {
     <h2 className={css.formTitle}>Edit Card</h2>
       <form className={css.from} onSubmit={handleSubmitForm}>
         <input
-          className={css.formInputTitle}
+          className={`${css.formInputTitle} ${title ? css.error : ''}`}
           type="text"
           name="title"
           placeholder="Title"
@@ -61,7 +61,7 @@ export const EditCardForm = () => {
         <p className={css.errMsg} name="title" />
         <label>
           <textarea
-            className={css.formInput}
+            className={`${css.formInput} ${description ? css.error : ''}`}
             rows={4}
             name="text"
             placeholder="Description"
