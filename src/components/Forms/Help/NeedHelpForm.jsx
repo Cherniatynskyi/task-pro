@@ -49,7 +49,7 @@ export const NeedHelpForm = () => {
             placeholder="Email"
             onChange={e => handleEmailChange(e)}
             value={email}
-            className={css.formInput}
+            className={`${css.formInput} ${email ? css.error : ''}`}
             type="email"
             name="email"
             required

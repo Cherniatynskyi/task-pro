@@ -60,7 +60,7 @@ export const AddCardForm = () => {
       <h2 className={css.formTitle}>{t('form.card-add')}</h2>
       <form className={css.from} onSubmit={handleSubmitForm}>
         <input
-          className={css.formInputTitle}
+          className={`${css.formInputTitle} ${title ? css.error : ''}`}
           type="text"
           name="title"
           placeholder={t('form.new-placeholder')}
@@ -70,7 +70,7 @@ export const AddCardForm = () => {
         <p className={css.errMsg} name="title" />
         <label>
           <textarea
-            className={css.formInput}
+            className={`${css.formInput} ${description ? css.error : ''}`}
             rows={4}
             name="text"
             placeholder={t('form.crd-descr')}
@@ -91,7 +91,7 @@ export const AddCardForm = () => {
                     value={pr.title}
                     onChange={e => handlePriorityChange(e)}
                     required
-                    checked = {priority === pr.title}
+                    checked={priority === pr.title}
                   />
                   <span
                     style={{ backgroundColor: `${pr.color}` }}

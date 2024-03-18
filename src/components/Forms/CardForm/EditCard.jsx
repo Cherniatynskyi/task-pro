@@ -52,7 +52,7 @@ export const EditCardForm = () => {
     <h2 className={css.formTitle}>{t('form.edt-card')}</h2>
       <form className={css.from} onSubmit={handleSubmitForm}>
         <input
-          className={css.formInputTitle}
+          className={`${css.formInputTitle} ${title ? css.error : ''}`}
           type="text"
           name="title"
           placeholder={t('form.new-placeholder')}
@@ -63,7 +63,7 @@ export const EditCardForm = () => {
         <p className={css.errMsg} name="title" />
         <label>
           <textarea
-            className={css.formInput}
+            className={`${css.formInput} ${description ? css.error : ''}`}
             rows={4}
             name="text"
             placeholder={t('form.crd-descr')}
