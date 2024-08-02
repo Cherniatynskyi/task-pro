@@ -1,15 +1,19 @@
-
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import css from './WelcomePage.module.css';
-import iconImg from '../../images/welcome/boy@2x.png';
-import sprite from '../../images/sprite.svg';
-
+// import iconImg from '../../images/welcome/boy@2x.png';
+// import sprite from '../../images/sprite.svg';
+import { WelcomeNav } from 'components/WelcomePageComponents/WelcomeNav';
+import { WelcomeHero } from 'components/WelcomePageComponents/WelcomeHero';
+import { WelcomeFeatures } from 'components/WelcomePageComponents/WelcomeFeatures';
 
 
 const WelcomePage = () => {
   return (
     <div className={css.welcomeWrapper}>
-      <div className={css.welcomeContainer}>
+      <WelcomeNav/>
+      <WelcomeHero/>
+      <WelcomeFeatures/>
+      {/* <div className={css.welcomeContainer}>
         <img src={iconImg} alt="boy at laptop" className={css.welcomeIcon} />
         <div className={css.welcomeLogo}>
           <svg className={css.welcomeLogoIcon}>
@@ -27,7 +31,7 @@ const WelcomePage = () => {
         <NavLink to="/auth/login" className={css.welcomeLoginBtn}>
           Log In
         </NavLink>
-      </div>
+      </div> */}
     </div>
 
   );
