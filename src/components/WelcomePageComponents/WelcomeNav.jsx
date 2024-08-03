@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export const WelcomeNav = () => {
   return (
-    <nav className={css.welcomeNav}>
+    <nav className={`${css.welcomeNav} ${css.content}`}>
         <div className={css.logo}>
             <svg className={css.welcomeLogoIcon}>
                 <use href={`${sprite}#icon-logo2`} />

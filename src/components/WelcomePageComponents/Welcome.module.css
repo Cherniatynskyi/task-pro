@@ -1,3 +1,9 @@
+.content{
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: auto;
+}
+
 .welcomeNav{
     display: flex;
     justify-content: space-between;
@@ -127,13 +133,18 @@
 
 
 .hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-
-    padding: 100px 30px;
     background: var(--welcomBackground);
+}
+
+.heroWrap{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 120px 0;
+
+    p{
+        margin-bottom: 20px;
+    }
 }
 
 .titleWrap{
@@ -148,7 +159,7 @@
 
 
 .heroImg{
-    width: 650px;
+    width: 750px;
 }
 
 .heroBtn{
@@ -156,7 +167,6 @@
     background-color: var(--secondaryBgColor);
     padding: 18px 40px;
     border-radius: 20px;
-    margin-top: 20PX;
     color: white;
     cursor: pointer;
 
@@ -165,6 +175,60 @@
 
 .heroBtn:hover{
     background-color: rgb(44, 44, 44);
+}
+
+@media (max-width: 1200px) {
+    .heroImg{
+        width: 600px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .heroImg{
+        position: absolute;
+        right: -20%;
+        top: 20%;
+        z-index: -10;
+        
+    }
+
+    .heroWrap{
+        position: relative;
+        display: block;
+    }
+}
+
+@media (max-width: 890px) {
+    .heroImg{
+        width: 500px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 670px) {
+    .heroImg{
+        filter: blur(5px);
+        top: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .heroImg{
+        width: 400px;
+        top: 45%;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .heroWrap{
+    
+        p{
+           font-size: 14px;
+           max-width: 440px;
+        }
+    }
 }
 
 
@@ -179,7 +243,7 @@
 .featuresTitleWrap{
     max-width: 50%;
     margin-bottom: 50px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .featuresTitle{
@@ -218,4 +282,115 @@
     height: 500px;
     border-radius: 10px;
 
+    transition: linear 200ms;
+}
+
+.featuresImg:hover{
+    scale: 1.2;
+}
+
+
+
+
+  /* ADV section */
+
+
+  .adv{
+    background: var(--welcomBackground);
+    padding: 60px 0 90px 0;
+  }
+
+  .advList{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .advCard{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: rgb(31, 31, 31);
+    width: 25%;
+    height: 300px;
+
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+
+  .advCard::before{
+    content: '';
+    background-color: var(--priorityColorHight);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    height: 15%;
+    z-index: 100;
+  }
+
+  .advCard:nth-child(2n)::before{
+    background-color: var(--priorityColorMedium);
+  }
+
+  .advCard:last-child::before{
+    background-color: var(--priorityColorLow);
+  }
+
+
+.cardTextWrap{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.feedback{
+    background-color: var(--lightBgColor);
+    padding: 50px 20px;
+    color: white;
+}
+
+.formWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: var(--darkBgColor);
+    padding: 50px 0;
+}
+
+.footerLogoText{
+    color: white;
+    font-weight: bold;
+}
+
+.footerWrap{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.footerFAQlist{
+    display: flex;
+    font-size: 12px;
+}
+
+.faqItem{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
