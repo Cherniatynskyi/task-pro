@@ -29,7 +29,9 @@ export const registerThunk = createAsyncThunk(
   'auth/register',
   async (body, { rejectWithValue }) => {
     try {
-      return await signUp(body);
+      const data = await signUp(body);
+      console.log(data);
+      return data;
     } catch (error) {
       toast.error(
         'Oops! Something went wrong! Please try reloading this page!'
