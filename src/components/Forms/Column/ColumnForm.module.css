@@ -223,3 +223,9 @@
 .buttonIcon {
   stroke: var(--mainTextColor);
 }
+
+.error {  
+  background-color: var(--inputsBgColor);
+  border: 1px solid var(--inputsBorderColor);  
+  opacity: 1; 
+}
